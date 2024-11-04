@@ -38,7 +38,7 @@ steps:
   inputs:
     azureSubscription: 'maaz_service'  # Name of your service connection
     appType: 'webAppLinux'  # Use 'webApp' if it's a Windows app
-    appName: 'NodejsApp'  # Name of your Azure Web App
+    appName: 'TechTutorialsWithMaaz'  # Name of your Azure Web App
     package: '$(Build.ArtifactStagingDirectory)/app.zip'
     runtimeStack: 'NODE|16-lts'  # Adjust to match your Node.js version on Azure
     displayName: 'Deploy to Azure Web App'
