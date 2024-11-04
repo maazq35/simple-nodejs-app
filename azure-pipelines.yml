@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: DESKTOP-JL8E0LQ
+  vmImage: amin
 
 steps:
 - task: NodeTool@0
